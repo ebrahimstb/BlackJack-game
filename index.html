@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/blackjack/blackjack.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" id="add-player">
+        <label for="playername">Player Name:</label>
+        <input type="text" placeholder="player name" id="player-name">
+        <input type="submit" value="startGame" id="start-button">
+    </form>
+    <h1>BLACKJACK</h1>
+    <p id="message-el">want to play a round</p>
+    <p id="card-el">Cards:</p>
+    <p id="sum-el">Sum:</p>
+    <button onclick="startGame()">START GAME</button></br>
+    <button onclick="newCard()">NEW CARD</button>
+    <div id="player-el"></div>
+    
+    <h3>NOTE: <span> you get a black jack when your card number sum to "21 and you can refresh your browser page to start again </span> </h3>
+    
+
+    <script src="/blackjack/blackJack.js"></script>
+</body>
+</html>
