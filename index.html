@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/blackjack/blackjack.css">
     <title>Document</title>
 </head>
@@ -11,18 +14,26 @@
     <form action="" id="add-player">
         <label for="playername">Player Name:</label>
         <input type="text" placeholder="player name" id="player-name">
-        <input type="submit" value="startGame" id="start-button">
+        <input type="submit" value="StartGame" id="start-button">
     </form>
     <h1>BLACKJACK</h1>
     <p id="message-el">want to play a round</p>
     <p id="card-el">Cards:</p>
     <p id="sum-el">Sum:</p>
-    <button onclick="startGame()">START GAME</button></br>
+    <button onclick="startGame()">DRAW GAME</button></br>
     <button onclick="newCard()">NEW CARD</button>
     <div id="player-el"></div>
     
-    <h3>NOTE: <span> you get a black jack when your card number sum to "21 and you can refresh your browser page to start again </span> </h3>
-    
+    <h3>NOTE: <span> you get a black jack when your card number sum to "21" and you can refresh your browser page to start again </span> </h3>
+    <footer>
+        <h2 class="text-bolder">Thanks for playing</br><i class="bi bi-hand-thumbs-up"></i></h2>
+        <span class="icon">
+            <a href="https://instagram.com/ebrahim_stb"><i class="bi bi-instagram"></i></a>
+            <a href="https://github.com/ebrahimstb"><i class="bi bi-github"></i></a>
+            <a href="https://twitter.com/ashrabessential"><i class="bi bi-twitter"></i></a>
+            <a href="https://facebook.com/ebrahimstb"><i class="bi bi-facebook"></i></a>
+            <a href="https://wa.link/d3zbhn"><i class="bi bi-whatsapp"></i></a>
+    </footer>    
 
     <script src="/blackjack/blackJack.js"></script>
 </body>
